@@ -3,7 +3,7 @@ package com.mkyong.examples;
 public class MessageBuilder {
 
     public String getMessage(String name) {
-
+        // test comment
         StringBuilder result = new StringBuilder();
 
         if (name == null || name.trim().length() == 0) {
