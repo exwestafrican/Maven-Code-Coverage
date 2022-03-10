@@ -4,18 +4,18 @@ import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
-public class TestMessageBuilder {
+class TestMessageBuilder {
 
     @Test
-    public void testNameMkyong() {
+    void testNameMkyong() {
 
         MessageBuilder obj = new MessageBuilder();
         assertEquals("Hello mkyong", obj.getMessage("mkyong"));
 
     }
 
-    /*@Test
-    public void testNameEmpty() {
+    @Test
+    void testNameEmpty() {
 
         MessageBuilder obj = new MessageBuilder();
         assertEquals("Please provide a name!", obj.getMessage(" "));
@@ -23,11 +23,11 @@ public class TestMessageBuilder {
     }
 
     @Test
-    public void testNameNull() {
+    void testNameNull() {
 
         MessageBuilder obj = new MessageBuilder();
         assertEquals("Please provide a name!", obj.getMessage(null));
 
-    }*/
+    }
 
 }
