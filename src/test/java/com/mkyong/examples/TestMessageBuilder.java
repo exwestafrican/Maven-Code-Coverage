@@ -14,20 +14,20 @@ class TestMessageBuilder {
 
     }
 
-    @Test
-    void testNameEmpty() {
+    // @Test
+    // void testNameEmpty() {
 
-        MessageBuilder obj = new MessageBuilder();
-        assertEquals("Please provide a name!", obj.getMessage(" "));
+    // MessageBuilder obj = new MessageBuilder();
+    // assertEquals("Please provide a name!", obj.getMessage(" "));
 
-    }
+    // }
 
-    @Test
-    void testNameNull() {
+    // @Test
+    // void testNameNull() {
 
-        MessageBuilder obj = new MessageBuilder();
-        assertEquals("Please provide a name!", obj.getMessage(null));
+    // MessageBuilder obj = new MessageBuilder();
+    // assertEquals("Please provide a name!", obj.getMessage(null));
 
-    }
+    // }
 
 }
